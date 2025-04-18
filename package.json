@@ -27,7 +27,9 @@
 		"vite": "^6.2.5"
 	},
 	"dependencies": {
+		"@sveltejs/adapter-node": "^5.2.12",
 		"@tailwindcss/oxide": "^4.1.4",
+		"express": "^5.1.0",
 		"socket.io": "^4.8.1",
 		"socket.io-client": "^4.8.1",
 		"uuid": "^11.1.0"
