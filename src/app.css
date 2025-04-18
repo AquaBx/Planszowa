@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+  --color-main-50: light-dark(hsl(270, 8.125%, 5%), hsl(270, 11.875%, 95%));
+  --color-main-100: light-dark(hsl(270, 8.125%, 10%), hsl(270, 11.875%, 90%));
+  --color-main-200: light-dark(hsl(270, 8.125%, 20%), hsl(270, 11.875%, 80%));
+  --color-main-300: light-dark(hsl(270, 8.125%, 30%), hsl(270, 11.875%, 70%));
+  --color-main-400: light-dark(hsl(270, 8.125%, 40%), hsl(270, 11.875%, 60%));
+  --color-main-500: light-dark(hsl(270, 8.125%, 50%), hsl(270, 11.875%, 50%));
+  --color-main-600: light-dark(hsl(270, 8.125%, 60%), hsl(270, 11.875%, 40%));
+  --color-main-700: light-dark(hsl(270, 8.125%, 70%), hsl(270, 11.875%, 30%));
+  --color-main-800: light-dark(hsl(270, 8.125%, 80%), hsl(270, 11.875%, 20%));
+  --color-main-900: light-dark(hsl(270, 8.125%, 90%), hsl(270, 11.875%, 10%));
+  --color-main-950: light-dark(hsl(270, 8.125%, 95%), hsl(270, 11.875%, 5%));
+
+  --color-complementary-50: light-dark(hsl(270, 65%, 5%), hsl(270, 95%, 95%));
+  --color-complementary-100: light-dark(hsl(270, 65%, 10%), hsl(270, 95%, 90%));
+  --color-complementary-200: light-dark(hsl(270, 65%, 20%), hsl(270, 95%, 80%));
+  --color-complementary-300: light-dark(hsl(270, 65%, 30%), hsl(270, 95%, 70%));
+  --color-complementary-400: light-dark(hsl(270, 65%, 40%), hsl(270, 95%, 60%));
+  --color-complementary-500: light-dark(hsl(270, 65%, 50%), hsl(270, 95%, 50%));
+  --color-complementary-600: light-dark(hsl(270, 65%, 60%), hsl(270, 95%, 40%));
+  --color-complementary-700: light-dark(hsl(270, 65%, 70%), hsl(270, 95%, 30%));
+  --color-complementary-800: light-dark(hsl(270, 65%, 80%), hsl(270, 95%, 20%));
+  --color-complementary-900: light-dark(hsl(270, 65%, 90%), hsl(270, 95%, 10%));
+  --color-complementary-950: light-dark(hsl(270, 65%, 95%), hsl(270, 95%, 5%));
+}
+
+html {
+    color-scheme: light dark;
+}
