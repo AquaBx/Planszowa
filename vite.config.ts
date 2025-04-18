@@ -4,5 +4,8 @@ import {defineConfig} from 'vite';
 import {webSocketServer} from "./src/server/websocket";
 
 export default defineConfig({
-	plugins: [tailwindcss(), sveltekit(), webSocketServer]
+	plugins: [tailwindcss(), sveltekit(), webSocketServer],
+	server : {
+		allowedHosts : ["planszowa.oracle.aquabx.ovh"]
+	}
 });
