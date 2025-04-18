@@ -26,6 +26,7 @@
 		"vite": "^6.2.5"
 	},
 	"dependencies": {
+		"@tailwindcss/oxide": "^4.1.4",
 		"socket.io": "^4.8.1",
 		"socket.io-client": "^4.8.1",
 		"uuid": "^11.1.0"
